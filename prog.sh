@@ -1,4 +1,4 @@
-exec python3 -u -m chk  "$@"
+exec python3 -u -m main  "$@"
 
-export HOME = "/home/sanchs"
-export PATH = '/usr/bin/cc'
+export HOME = "/add/your/home/path"
+export PATH = '/usr/bin/cc' # Might be diff for you but most prolly not
